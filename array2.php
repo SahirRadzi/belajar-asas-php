@@ -15,7 +15,12 @@ $kelas[] = $murid2;
 
     // echo $kelas[1]['nama'];
 
+    // echo "<pre>";
+    
     echo "Nama dia adalah" .' '.$kelas[1]['nama'] . " dan berumur" .' '.$kelas[1]['umur'];
+    
+    // echo "</pre>";
+
 
 
 ?>
