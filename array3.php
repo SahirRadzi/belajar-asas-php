@@ -14,20 +14,32 @@
 
 // echo $murid[0] .' '."dan".' '. $murid[1] .' '."adalah kawan baik. Mereka juga mempunyai kawan perempuan bernama" .' '.$murid[2] . " dan " . $murid[3];
 
+$kelas = [];
 
 $murid = [
     'nama' => 'Ali',
     'umur' => 11
 ];
 
-    echo 'Nama : '. $murid['nama'] .'<br>';
-    echo 'Umur : '. $murid['umur'] .'<br>';
+
+$kelas[] = $murid;
+
+$murid = [
+    'nama' => 'Bakar',
+    'umur' => 12
+];
+
+
+$kelas[] = $murid;
+
+    echo 'Nama : '. $kelas[0]['nama'] .'<br>';
+    echo 'Umur : '. $kelas[0]['umur'] .'<br>';
     echo "<br>----------------</br>";
 
 
 echo "<pre>";
 
-    print_r($murid);
+    print_r($kelas);
 
 echo "</pre>";
 
