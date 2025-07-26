@@ -32,8 +32,10 @@ $murid = [
 
 $kelas[] = $murid;
 
-    echo 'Nama : '. $kelas[0]['nama'] .'<br>';
-    echo 'Umur : '. $kelas[0]['umur'] .'<br>';
+$index = 1;
+
+    echo 'Nama : '. $kelas[1]['nama'] .'<br>';
+    echo 'Umur : '. $kelas[1]['umur'] .'<br>';
     echo "<br>----------------</br>";
 
 
