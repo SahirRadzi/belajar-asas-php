@@ -39,7 +39,11 @@ $index = 1;
     echo "<br>----------------</br>";
 
 
-echo "<pre>";
+echo "<pre>";echo "<pre>";
+
+    print_r($kelas);
+
+echo "</pre>";
 
     print_r($kelas);
 
